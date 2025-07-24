@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Wrapper from "../../components/Wrapper";
-import Image from "next/image";
 import { Metadata } from "next";
-import { FB_LINK } from "@/utils/constant";
-import { Link } from "lucide-react";
+import Image from "next/image";
+import Wrapper from "../../components/Wrapper";
+import ShopNow from "./ShopNow";
 export const metadata: Metadata = {
   title: "About",
 };
@@ -62,9 +60,8 @@ const Page = () => {
             pedicurists, Receptionists & information clerks, Supervisors of
             personal care and service workers, and Skincare specialists.
           </p>
-          <Link href={FB_LINK} target="_blank">
-            <Button className="hover:cursor-pointer">Shop Now</Button>
-          </Link>
+
+          <ShopNow />
         </div>
       </div>
     </Wrapper>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FB_LINK } from "@/utils/constant";
-import { Heart, Link, ShoppingBag } from "lucide-react";
+import { Heart, ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -61,12 +61,15 @@ const ProductDetailLayout: React.FC<ProductDetailLayoutProps> = ({
               ? "Remove from wishlist"
               : "Add to wishlist"}
           </Button>
-          <Link href={FB_LINK} target="_blank">
-            <Button size="lg" className="w-full rounded-xl" onClick={() => {}}>
-              <ShoppingBag />
-              Shop Now
-            </Button>
-          </Link>
+
+          <Button
+            size="lg"
+            className="w-full rounded-xl"
+            onClick={() => window.open(FB_LINK, "_blank")}
+          >
+            <ShoppingBag />
+            Shop Now
+          </Button>
         </div>
       </div>
     </div>

@@ -91,7 +91,7 @@ const FeatureProductListing = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.4 }}
       >
-        {skincareProducts.map((product, index) => {
+        {skincareProducts.map((product) => {
           const found = favoriteProducts.find((p) => p.id === product.id);
 
           return (
@@ -117,12 +117,13 @@ const FeatureProductListing = () => {
                   </DialogTitle>
                   <DialogDescription asChild>
                     <ProductDetailLayout
+                      key={product.id}
                       title={product.name}
                       description={product.description}
                       price={`$${product.price}`}
                       image={product.image}
                       isLoading={loadingProductId === product.id}
-                      isFavorite={product.id == favoriteProducts[index]?.id}
+                      isFavorite={found ? true : false}
                       onAddFavorites={() =>
                         handleAddFavorite(product, found ? true : false)
                       }

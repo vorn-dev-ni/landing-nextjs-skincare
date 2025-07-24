@@ -100,7 +100,8 @@ const ProductWishList = () => {
                     </DialogTitle>
                     <DialogDescription asChild>
                       <ProductDetailLayout
-                        isFavorite={product.id == favoriteProducts[index]?.id}
+                        key={product.id}
+                        isFavorite={found ? true : false}
                         title={product.name}
                         description={product.description}
                         price={`$${product.price}`}

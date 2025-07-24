@@ -179,7 +179,7 @@ const ProductCarousel = () => {
             }}
             className="w-full"
           >
-            {skincareProducts.map((product, index) => {
+            {skincareProducts.map((product) => {
               const found = favoriteProducts.find((p) => p.id === product.id);
 
               return (
@@ -212,10 +212,9 @@ const ProductCarousel = () => {
                         </DialogTitle>
                         <DialogDescription asChild>
                           <ProductDetailLayout
+                            key={product.id}
                             title={product.name}
-                            isFavorite={
-                              product.id == favoriteProducts[index]?.id
-                            }
+                            isFavorite={found ? true : false}
                             description={product.description}
                             price={`$${product.price}`}
                             image={product.image}

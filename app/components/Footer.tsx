@@ -1,4 +1,4 @@
-import { FB_LINK } from "@/utils/constant";
+import { FB_LINK, IG, TIKTOK } from "@/utils/constant";
 import Link from "next/link";
 import CompanyRight from "./CompanyRight";
 
@@ -149,7 +149,7 @@ const Footer = () => {
 
             <li>
               <Link
-                href={FB_LINK}
+                href={IG}
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"
@@ -172,7 +172,7 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href={FB_LINK}
+                href={TIKTOK}
                 rel="noreferrer"
                 target="_blank"
                 className="text-gray-700 transition hover:opacity-75"

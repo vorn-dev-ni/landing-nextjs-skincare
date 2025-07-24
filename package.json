@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "cp .env.production .env.local && next build",
+    "build": "next build",
     "build-dev": "cp .env.development .env.local && next build",
     "start": "cp .env.production .env.local && next start",
     "start-dev": "cp .env.development .env.local && next start",

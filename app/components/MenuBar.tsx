@@ -54,7 +54,7 @@ export default function MenuBar() {
                   <li>
                     <NavigationMenuLink asChild>
                       <Link href="/faq" className="hover:underline">
-                        FAQ
+                        FAQs
                       </Link>
                     </NavigationMenuLink>
                   </li>

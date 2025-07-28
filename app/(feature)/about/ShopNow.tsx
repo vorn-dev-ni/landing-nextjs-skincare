@@ -6,7 +6,7 @@ const ShopNow = () => {
   return (
     <Button
       onClick={() => window.open(FB_LINK, "_blank")}
-      className="hover:cursor-pointer px-12 py-2 w-full sm:w-fit"
+      className="hover:cursor-pointer px-12 py-6 w-full sm:w-fit text-xl sm:text-lg"
     >
       Shop Now
     </Button>

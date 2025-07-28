@@ -46,8 +46,8 @@ const BottomCTA = () => {
         >
           <h6 className="h5 sm:h4">Ready for Glowing Skin</h6>
           <p className="text-sm subtitle2 font-light">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
-            amet nihil. Eos, maxime rerum nobis harum
+            Uncover your natural radiance with skincare that nourishes,
+            hydrates, and empowers your glow—inside and out.
           </p>
           <Link href={FB_LINK} target="_blank">
             <Button className="rounded-xl px-12 py-7 text-md sm:text-xl bg-red-300 text-red-50 hover:bg-red-200 outline-0 ring-0 duration-500 transition-all">

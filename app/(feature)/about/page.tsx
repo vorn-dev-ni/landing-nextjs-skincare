@@ -20,25 +20,27 @@ const Page = () => {
           </div>
 
           {/* Background Image */}
-          <div className="relative z-10 w-[70%] mx-auto">
+          <div className=" z-10 w-[70%] mx-auto overflow-hidden relative rounded-xl">
             <Image
               src="https://plus.unsplash.com/premium_photo-1679046948909-ab47e96082e7?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Hands with flowers"
               width={600}
               height={600}
-              className="rounded-xl shadow-lg object-cover w-full h-auto left-0"
+              className="rounded-xl shadow-lg object-cover w-full h-auto left-0 animated-scale"
             />
           </div>
 
           {/* Foreground Image (overlapping) */}
-          <div className="absolute right-8 z-20 w-[40%] max-w-md bottom-[-100]">
-            <Image
-              src="https://images.unsplash.com/photo-1552046122-03184de85e08?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Woman in flower bath"
-              width={400}
-              height={400}
-              className="rounded-xl shadow-sm object-cover w-full h-auto border-4 border-white"
-            />
+          <div className="absolute right-8 z-20 w-[40%] max-w-md bottom-[-100px]">
+            <div className="overflow-hidden rounded-xl shadow-sm border-4 border-white group">
+              <Image
+                src="https://images.unsplash.com/photo-1552046122-03184de85e08?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Woman in flower bath"
+                width={400}
+                height={400}
+                className="rounded-xl object-cover w-full h-auto transition-transform animated-scale"
+              />
+            </div>
           </div>
         </div>
 

@@ -54,13 +54,13 @@ const socials = [
   },
   {
     id: 6,
-    link: "https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/523116508_1129932919165600_2122805901817921154_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MHIgVdKapHgQ7kNvwEXRDk7&_nc_oc=Adn2xdLSTckvKaXQxeuiI6RO8tuttatb13JMjFHQtiydX3z97o4uh0jvFPRKlk46E-E&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=Qli4HnjrtCTyr3ymMHjjzg&oh=00_AfQobK4wOthvjNxIkPuWAg6OfHPZY--uTfY_ykPrEEhzjw&oe=688531D2",
-    url: "https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/523116508_1129932919165600_2122805901817921154_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MHIgVdKapHgQ7kNvwEXRDk7&_nc_oc=Adn2xdLSTckvKaXQxeuiI6RO8tuttatb13JMjFHQtiydX3z97o4uh0jvFPRKlk46E-E&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=Qli4HnjrtCTyr3ymMHjjzg&oh=00_AfQobK4wOthvjNxIkPuWAg6OfHPZY--uTfY_ykPrEEhzjw&oe=688531D2",
+    link: "https://images.unsplash.com/photo-1555820585-c5ae44394b79?q=80&w=1325&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "https://images.unsplash.com/photo-1555820585-c5ae44394b79?q=80&w=1325&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     id: 7,
-    link: "https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/521553599_1125983869560505_335629306354103403_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lisTqlg1jwwQ7kNvwFaSUpR&_nc_oc=Adn9Vmd9JQwjalWpkjPvKlMCMQ81DCDpETnz2UhD18VTckIBa7QsDuNEtob5tDgkjJI&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=MX5fkfRpTR0csVPJ6LtXtg&oh=00_AfTpUopZRxretBumJqmKve_7tuq36KpdYQhBRc7xFZxl_w&oe=68852143",
-    url: "https://scontent.fpnh2-2.fna.fbcdn.net/v/t39.30808-6/521553599_1125983869560505_335629306354103403_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lisTqlg1jwwQ7kNvwFaSUpR&_nc_oc=Adn9Vmd9JQwjalWpkjPvKlMCMQ81DCDpETnz2UhD18VTckIBa7QsDuNEtob5tDgkjJI&_nc_zt=23&_nc_ht=scontent.fpnh2-2.fna&_nc_gid=MX5fkfRpTR0csVPJ6LtXtg&oh=00_AfTpUopZRxretBumJqmKve_7tuq36KpdYQhBRc7xFZxl_w&oe=68852143",
+    link: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 const SocialCarousel = () => {

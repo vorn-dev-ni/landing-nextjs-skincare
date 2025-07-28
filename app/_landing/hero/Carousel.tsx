@@ -97,7 +97,7 @@ export default function MySwiper() {
                       src={slide.image}
                       alt="slider"
                       fill
-                      className="object-cover"
+                      className="object-cover h-full w-full bg-gray-200"
                     />
                     <Wrapper>
                       <motion.div

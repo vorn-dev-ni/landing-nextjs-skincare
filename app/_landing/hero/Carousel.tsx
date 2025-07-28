@@ -23,8 +23,7 @@ const MotionImage = motion(Image);
 const slides = [
   {
     id: 0,
-    image:
-      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/carousels/first.jpg",
     headline: "True to Oneself",
     title: "Explore Our Wax Sellers",
     subtitle:
@@ -32,8 +31,8 @@ const slides = [
   },
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1581182800629-7d90925ad072?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/carousels/second.jpg",
+
     headline: "Get The Best Offer",
     title: "Discover Clean Beauty",
     subtitle:
@@ -41,8 +40,7 @@ const slides = [
   },
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1522108098940-de49801b5b40?q=80&w=2338&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/carousels/third.jpg",
     headline: "Natural Skincare",
     title: "Glow Naturally",
     subtitle:
@@ -112,19 +110,22 @@ export default function MySwiper() {
                       >
                         <motion.h1
                           variants={textVariant}
-                          className="text-white text-lg sm:text-2xl font-normal text-shadow"
+                          className="text-white text-lg sm:text-2xl font-normal text-shadow-2xs"
                         >
                           {slide.headline}
                         </motion.h1>
 
                         <motion.h1
                           variants={textVariant}
-                          className="text-white  text-4xl sm:text-7xl font-semibold mb-2 text-shadow"
+                          className="text-white  text-4xl sm:text-7xl font-semibold mb-2 text-shadow-2xs"
                         >
                           {slide.title}
                         </motion.h1>
 
-                        <motion.p variants={textVariant} className="max-w-3xl">
+                        <motion.p
+                          variants={textVariant}
+                          className="max-w-3xl text-shadow-2xs"
+                        >
                           {slide.subtitle}
                         </motion.p>
 
@@ -133,7 +134,7 @@ export default function MySwiper() {
                           href={FB_LINK}
                           target="_blank"
                         >
-                          <Button className="my-6 py-6 sm:py-8 w-fit justify-between px-16 bg-primary-400 hover:bg-primary-300 duration-500 ease-in-out transition-all">
+                          <Button className="my-6 py-6 sm:py-6 w-fit justify-between px-12 bg-primary-400 hover:bg-primary-300 duration-500 ease-in-out transition-all">
                             <div className="grow" />
                             <p className="text-md sm:text-lg  text-center text-white text-shadow-2xs">
                               SHOP NOW

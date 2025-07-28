@@ -32,7 +32,7 @@ const ProductDetailLayout: React.FC<ProductDetailLayoutProps> = ({
           width={400}
           height={300}
           alt={title}
-          className="rounded-xl w-full h-full object-cover animated-scale "
+          className="rounded-xl w-full object-cover animated-scale bg-gray-200 h-[300px]"
         />
       </div>
 

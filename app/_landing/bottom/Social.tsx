@@ -21,7 +21,7 @@ const Social = () => {
       <motion.div className="col-span-full" variants={fadeUp}>
         <Header
           title="Who's love the product"
-          desc="OUR COMMUNITY SIMPLIFYING SUGAR WAXING"
+          desc="OUR COMMUNITY SIMPLIFYING EXLIR ENJOYER"
         />
       </motion.div>
 
